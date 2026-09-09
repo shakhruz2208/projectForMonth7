@@ -18,7 +18,7 @@ const Register = memo(() => {
     email: yup.string().required('Email required').email('Invalid email'),
     password: yup.string().required('Password required').min(6, 'Min 6 characters')
       .matches(/[A-Z]/, 'Must contain uppercase').matches(/[0-9]/, 'Must contain number'),
-    confirmPassword: yup.string().required('Confirm password').oneOf([yup.ref('password')], 'Passwords must match'),
+    confirmPassword: yup.string().required('Confirm password').oneOf([yup.ref('password'), null], 'Passwords must match'),
   });
 
   const handleSubmit = useCallback(async (values, { setSubmitting }) => {
@@ -28,7 +28,7 @@ const Register = memo(() => {
       toast.success('Welcome!');
       navigate('/');
     } catch (error) {
-      toast.error(error.response?.data?.error || 'Registration failed');
+      toast.error(error.response?.data?.error || error.response?.data?.message || 'Registration failed');
     } finally {
       setSubmitting(false);
     }
@@ -46,23 +46,23 @@ const Register = memo(() => {
             {({ isSubmitting }) => (
               <Form className="space-y-4">
                 <div>
-                  <label className="block text-sm font-medium mb-1 text-slate-300">{t('auth.name')}</label>
-                  <Field name="name" className="w-full px-4 py-3 rounded-xl bg-slate-700 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-emerald-500" placeholder="Your name" />
+                  <label htmlFor="name" className="block text-sm font-medium mb-1 text-slate-300">{t('auth.name')}</label>
+                  <Field id="name" name="name" className="w-full px-4 py-3 rounded-xl bg-slate-700 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-emerald-500" placeholder="Your name" />
                   <ErrorMessage name="name" component="p" className="text-red-500 text-sm mt-1" />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium mb-1 text-slate-300">{t('auth.email')}</label>
-                  <Field name="email" type="email" className="w-full px-4 py-3 rounded-xl bg-slate-700 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-emerald-500" placeholder="email@example.com" />
+                  <label htmlFor="email" className="block text-sm font-medium mb-1 text-slate-300">{t('auth.email')}</label>
+                  <Field id="email" name="email" type="email" className="w-full px-4 py-3 rounded-xl bg-slate-700 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-emerald-500" placeholder="email@example.com" />
                   <ErrorMessage name="email" component="p" className="text-red-500 text-sm mt-1" />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium mb-1 text-slate-300">{t('auth.password')}</label>
-                  <Field name="password" type="password" className="w-full px-4 py-3 rounded-xl bg-slate-700 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-emerald-500" placeholder="••••••" />
+                  <label htmlFor="password" className="block text-sm font-medium mb-1 text-slate-300">{t('auth.password')}</label>
+                  <Field id="password" name="password" type="password" autoComplete="new-password" className="w-full px-4 py-3 rounded-xl bg-slate-700 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-emerald-500" placeholder="••••••" />
                   <ErrorMessage name="password" component="p" className="text-red-500 text-sm mt-1" />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium mb-1 text-slate-300">{t('auth.confirmPassword')}</label>
-                  <Field name="confirmPassword" type="password" className="w-full px-4 py-3 rounded-xl bg-slate-700 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-emerald-500" placeholder="••••••" />
+                  <label htmlFor="confirmPassword" className="block text-sm font-medium mb-1 text-slate-300">{t('auth.confirmPassword')}</label>
+                  <Field id="confirmPassword" name="confirmPassword" type="password" autoComplete="new-password" className="w-full px-4 py-3 rounded-xl bg-slate-700 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-emerald-500" placeholder="••••••" />
                   <ErrorMessage name="confirmPassword" component="p" className="text-red-500 text-sm mt-1" />
                 </div>
                 <button type="submit" disabled={isSubmitting}

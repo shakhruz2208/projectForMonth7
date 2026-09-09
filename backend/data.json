@@ -26,6 +26,15 @@
       "avatar": "👤",
       "role": "user",
       "created_at": "2026-09-09T10:42:30.759Z"
+    },
+    {
+      "id": 1788954152522.5886,
+      "name": "Shaxruz Sohibnazarov",
+      "email": "shaxruzsohibnazarov2@gmail.com",
+      "password": "$2a$10$5n5E.RdH6ZXvs6WUeH697.PwKeVLF54vOjNqI9TXV1pYsds8jztJW",
+      "avatar": "👤",
+      "role": "user",
+      "created_at": "2026-09-09T11:42:32.522Z"
     }
   ],
   "reviews": [
@@ -83,6 +92,17 @@
       "travel_type": "Friends",
       "helpful": 11,
       "created_at": "2026-09-09T10:42:30.762Z"
+    },
+    {
+      "id": 1788954261914.6824,
+      "user_id": 1788954152522.5886,
+      "destination": "Bali",
+      "rating": 5,
+      "title": "sdsdsdsd",
+      "comment": "sdsdsdsdsdsdsdsdsddsd",
+      "helpful": 10,
+      "created_at": "2026-09-09T11:44:21.914Z",
+      "updated_at": "2026-09-09T11:44:33.515Z"
     }
   ],
   "blog_posts": [
@@ -166,6 +186,15 @@
       "notifications": 1,
       "compact_mode": 0,
       "created_at": "2026-09-09T10:42:30.760Z"
+    },
+    {
+      "id": 1788954152525.945,
+      "user_id": 1788954152522.5886,
+      "theme": "dark",
+      "language": "uz",
+      "notifications": 1,
+      "compact_mode": 0,
+      "created_at": "2026-09-09T11:42:32.525Z"
     }
   ],
   "itineraries": []
