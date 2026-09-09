@@ -1,0 +1,17 @@
+[
+  { "name": "Paris", "country": "France", "lat": 48.86, "lon": 2.35, "emoji": "🗼" },
+  { "name": "Tokyo", "country": "Japan", "lat": 35.68, "lon": 139.69, "emoji": "🏯" },
+  { "name": "Bali", "country": "Indonesia", "lat": -8.34, "lon": 115.09, "emoji": "🏝️" },
+  { "name": "New York", "country": "USA", "lat": 40.71, "lon": -74.01, "emoji": "🗽" },
+  { "name": "Dubai", "country": "UAE", "lat": 25.20, "lon": 55.27, "emoji": "🏙️" },
+  { "name": "Istanbul", "country": "Turkey", "lat": 41.01, "lon": 28.98, "emoji": "🕌" },
+  { "name": "Santorini", "country": "Greece", "lat": 36.39, "lon": 25.46, "emoji": "🏛️" },
+  { "name": "Maldives", "country": "Maldives", "lat": 3.20, "lon": 73.22, "emoji": "🌊" },
+  { "name": "Kyoto", "country": "Japan", "lat": 35.01, "lon": 135.77, "emoji": "⛩️" },
+  { "name": "Cappadocia", "country": "Turkey", "lat": 38.64, "lon": 34.83, "emoji": "🎈" },
+  { "name": "London", "country": "UK", "lat": 51.51, "lon": -0.13, "emoji": "🎡" },
+  { "name": "Rome", "country": "Italy", "lat": 41.90, "lon": 12.50, "emoji": "🏛️" },
+  { "name": "Bangkok", "country": "Thailand", "lat": 13.76, "lon": 100.50, "emoji": "🛕" },
+  { "name": "Toshkent", "country": "Uzbekistan", "lat": 41.30, "lon": 69.28, "emoji": "🏙️" },
+  { "name": "Barcelona", "country": "Spain", "lat": 41.39, "lon": 2.17, "emoji": "🏖️" }
+]

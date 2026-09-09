@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Sayohat uchun 10 ta eng yaxshi maslahat",
+    "slug": "10-travel-tips",
+    "excerpt": "Sayohatingizni yanada yoqimli qilish uchun foydali maslahatlar.",
+    "content": "Sayohat qilish — bu hayotdagi eng yoqimli tajribalardan biri. Lekin ba'zan kichik xatolar katta muammolarga olib kelishi mumkin. Shuning uchun biz sizga 10 ta foydali maslahat tayyorladik.\n\n1. **Yengil yuk tashlang** — Faqat kerakli narsalarni oling. Katta sumka har doim muammo.\n2. **Oldindan bron qiling** — Chipta va mehmonxona arzonroq bo'ladi.\n3. **Sug'urta qiling** — Xavfsizlik uchun sayohat sug'urtasi juda muhim.\n4. **Mahalliy ovqatlarni sinab ko'ring** — Oshxona madaniyatini kashf eting.\n5. **Piyoda yuring** — Eng chiroyli joylar ko'cha-kuyda.\n6. **Fotografiya** — Xotiralarni saqlang.\n7. **Til o'rganing** — Asosiy gaplar juda foydali.\n8. **Xaritani saqlang** — Offline xarita juda kerak.\n9. **Vaqt ajrating** — Shoshilmang, dam oling.\n10. **Zavqlaning!** — Asosiy maqsad — hursand bo'lish!",
+    "author": "Sayohat Ustasi",
+    "date": "2026-09-01",
+    "category": "Maslahatlar",
+    "image": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800",
+    "readTime": "5 daqiqa"
+  },
+  {
+    "id": 2,
+    "title": "Arzon sayohat qilishning sirri",
+    "slug": "budget-travel-secrets",
+    "excerpt": "Kam pul sarflab ko'p narsa ko'rish mumkinmi? Albatta!",
+    "content": "Sayohat qilish uchun ko'p pul kerak degan fikr noto'g'ri. To'g'ri rejalashtirish bilan kam pulga ham chiroyli sayohat qilish mumkin.\n\n**Arzon sayohat sirlari:**\n- Arzon aviakompaniyalarni tanlang\n- Hostel yoki Couchsurfing'dan foydalaning\n- Ovqatni o'zingiz tayyorlang\n- Bepul ekskursiyalarga qatnashing\n- Sayohat davrida ishlang\n- Valyutani o'zgartirish kursini kuzating\n- Shimoliy yarim sharda qishda sayohat qiling",
+    "author": "Byudjet Ustasi",
+    "date": "2026-08-25",
+    "category": "Byudjet",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800",
+    "readTime": "7 daqiqa"
+  },
+  {
+    "id": 3,
+    "title": "Yaponiya: An'anaviy va zamonaviy madaniyat",
+    "slug": "japan-culture",
+    "excerpt": "Yaponiya — tempullar va neondan tortib, sushi va animegacha.",
+    "content": "Yaponiya — bu qadimiy madaniyat va zamonaviy texnologiya uyg'unligi. Bu yerdagi har bir narsa o'ziga xos.\n\n**Ko'rish kerak:**\n- Kyoto'dagi qadimiy ibodatxonalar\n- Tokyo'dagi zamonaviy mahallalar\n- Fudji tog'i\n- Nara'dagi kiyiklar\n- Osaka'dagi oshxona\n\n**Sinab ko'rish kerak:**\n- Ramen va sushi\n- Matcha choy\n- Onsen (issiq buloqlar)\n- Kimono kiyish\n- Geysha madaniyati",
+    "author": "Osiyo tadqiqotchisi",
+    "date": "2026-08-18",
+    "category": "Madaniyat",
+    "image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800",
+    "readTime": "8 daqiqa"
+  },
+  {
+    "id": 4,
+    "title": "Plyaj sayohati uchun to'liq qo'llanma",
+    "slug": "beach-travel-guide",
+    "excerpt": "Eng yaxshi plyajlar, kerakli narsalar va maslahatlar.",
+    "content": "Plyaj sayohati — bu dam olishning eng yoqimli usuli. Lekin to'g'ri tayyorgarlik kerak.\n\n**Eng yaxshi plyajlar:**\n- Maldives — kristal suv\n- Bali — tropik jannat\n- Santorini — noyob manzara\n- Phuket — arzon va chiroyli\n\n**Kerakli narsalar:**\n- Krem (SPF 50+)\n- Quyosh ko'zoynagi\n- Sulochka\n- Sochiq\n- Idish-tuvoq",
+    "author": "Plyaj eksperti",
+    "date": "2026-08-10",
+    "category": "Plyaj",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+    "readTime": "6 daqiqa"
+  },
+  {
+    "id": 5,
+    "title": "Xavfsiz sayohat: 7 ta muhim qoida",
+    "slug": "safe-travel-rules",
+    "excerpt": "Sayohat davomida o'zingizni qanday himoya qilish kerak?",
+    "content": "Xavfsizlik — har bir sayohatchining birinchi ustuvorligi.\n\n**7 ta muhim qoida:**\n1. Pasport nusxasini saqlang\n2. Sug'urta qiling\n3. Mahalliy qonunlarni o'rganing\n4. Tungi sayohatdan saqlaning\n5. O'zini tutishni biling\n6. Telefonni zaryadda tuting\n7. Do'stlaringizga xabar bering",
+    "author": "Xavfslik eksperti",
+    "date": "2026-08-05",
+    "category": "Xavfsizlik",
+    "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800",
+    "readTime": "4 daqiqa"
+  }
+]

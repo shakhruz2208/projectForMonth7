@@ -1,0 +1,172 @@
+{
+  "users": [
+    {
+      "id": 1788950550642.9014,
+      "name": "Akbar Karimov",
+      "email": "akbar@example.com",
+      "password": "$2a$10$rNfVcPT3yhhUE/RwerXr2.dPGoWQOloxCHPOY3JbV4faq8O3gyiBi",
+      "avatar": "👤",
+      "role": "user",
+      "created_at": "2026-09-09T10:42:30.642Z"
+    },
+    {
+      "id": 1788950550700.6892,
+      "name": "Nodira Bayramova",
+      "email": "nodira@example.com",
+      "password": "$2a$10$LrddgJ0JGEoLhzM5Xh2wqeIistVgjbNfHaMYHsNQYcb8HqQJgTM72",
+      "avatar": "👤",
+      "role": "user",
+      "created_at": "2026-09-09T10:42:30.700Z"
+    },
+    {
+      "id": 1788950550759.5435,
+      "name": "Sardor Mirzoev",
+      "email": "sardor@example.com",
+      "password": "$2a$10$xpSTsASYFCILV9eff0ApnuvUucdaVkUmAyLR.N8q7UsEQWNhllvyC",
+      "avatar": "👤",
+      "role": "user",
+      "created_at": "2026-09-09T10:42:30.759Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1788950550761.721,
+      "user_id": 1788950550642.9014,
+      "destination": "Paris",
+      "rating": 5,
+      "title": "Ajoyib tajriba!",
+      "comment": "Parij — sevgi shahri. Eiffel minoridan manzara ajoyib.",
+      "travel_type": "Couple",
+      "helpful": 12,
+      "created_at": "2026-09-09T10:42:30.761Z"
+    },
+    {
+      "id": 1788950550761.61,
+      "user_id": 1788950550700.6892,
+      "destination": "Bali",
+      "rating": 4,
+      "title": "Tropik jannat",
+      "comment": "Bali juda chiroyli joy. Ubud teraslari hayratlanarli.",
+      "travel_type": "Family",
+      "helpful": 8,
+      "created_at": "2026-09-09T10:42:30.761Z"
+    },
+    {
+      "id": 1788950550762.9736,
+      "user_id": 1788950550759.5435,
+      "destination": "Tokyo",
+      "rating": 5,
+      "title": "Kelajak shahri!",
+      "comment": "Tokyo — zamonaviy va an'anaviy madaniyat uyg'unligi.",
+      "travel_type": "Solo",
+      "helpful": 15,
+      "created_at": "2026-09-09T10:42:30.762Z"
+    },
+    {
+      "id": 1788950550762.497,
+      "user_id": 1788950550642.9014,
+      "destination": "Maldives",
+      "rating": 5,
+      "title": "Haqiqiy jannat",
+      "comment": "Kristal suv, oq plyajlar va hashamatli resortlar.",
+      "travel_type": "Couple",
+      "helpful": 20,
+      "created_at": "2026-09-09T10:42:30.762Z"
+    },
+    {
+      "id": 1788950550762.3354,
+      "user_id": 1788950550700.6892,
+      "destination": "Cappadocia",
+      "rating": 4,
+      "title": "Sarguzashtli sayohat",
+      "comment": "Havo sharidan quyosh chiqishini ko'rish ajoyib.",
+      "travel_type": "Friends",
+      "helpful": 11,
+      "created_at": "2026-09-09T10:42:30.762Z"
+    }
+  ],
+  "blog_posts": [
+    {
+      "id": 1788950550763.9507,
+      "user_id": 1788950550642.9014,
+      "title": "Sayohat uchun 10 ta maslahat",
+      "content": "Sayohat qilish — hayotdagi eng yoqimli tajriba. To'g'ri rejalashtirish bilan sayohat yanada yoqimli bo'ladi.",
+      "category": "Maslahatlar",
+      "status": "published",
+      "views": 150,
+      "created_at": "2026-09-09T10:42:30.763Z"
+    },
+    {
+      "id": 1788950550763.461,
+      "user_id": 1788950550700.6892,
+      "title": "Arzon sayohat qilishning sirri",
+      "content": "Kam pulga ham chiroyli sayohat qilish mumkin. Asosiysi — to'g'ri rejalashtirish.",
+      "category": "Byudjet",
+      "status": "published",
+      "views": 230,
+      "created_at": "2026-09-09T10:42:30.763Z"
+    },
+    {
+      "id": 1788950550764.16,
+      "user_id": 1788950550759.5435,
+      "title": "Yaponiya: Madaniyatlar uyg'unligi",
+      "content": "Yaponiya — qadimiy madaniyat va zamonaviy texnologiya uyg'unligi.",
+      "category": "Madaniyat",
+      "status": "published",
+      "views": 180,
+      "created_at": "2026-09-09T10:42:30.764Z"
+    },
+    {
+      "id": 1788950550764.1516,
+      "user_id": 1788950550642.9014,
+      "title": "Plyaj sayohati qo'llanmasi",
+      "content": "Eng yaxshi plyajlar, kerakli narsalar va maslahatlar.",
+      "category": "Plyaj",
+      "status": "published",
+      "views": 120,
+      "created_at": "2026-09-09T10:42:30.764Z"
+    },
+    {
+      "id": 1788950550765.638,
+      "user_id": 1788950550700.6892,
+      "title": "Xavfsiz sayohat: 7 ta qoida",
+      "content": "Sayohat davomida o'zingizni qanday himoya qilish kerak?",
+      "category": "Xavfsizlik",
+      "status": "published",
+      "views": 200,
+      "created_at": "2026-09-09T10:42:30.765Z"
+    }
+  ],
+  "saved_trips": [],
+  "checklists": [],
+  "settings": [
+    {
+      "id": 1788950550643.5562,
+      "user_id": 1788950550642.9014,
+      "theme": "dark",
+      "language": "uz",
+      "notifications": 1,
+      "compact_mode": 0,
+      "created_at": "2026-09-09T10:42:30.643Z"
+    },
+    {
+      "id": 1788950550701.6587,
+      "user_id": 1788950550700.6892,
+      "theme": "dark",
+      "language": "uz",
+      "notifications": 1,
+      "compact_mode": 0,
+      "created_at": "2026-09-09T10:42:30.701Z"
+    },
+    {
+      "id": 1788950550760.014,
+      "user_id": 1788950550759.5435,
+      "theme": "dark",
+      "language": "uz",
+      "notifications": 1,
+      "compact_mode": 0,
+      "created_at": "2026-09-09T10:42:30.760Z"
+    }
+  ],
+  "itineraries": []
+}
